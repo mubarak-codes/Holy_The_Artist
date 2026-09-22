@@ -1,40 +1,967 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOLY The Artist Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <title>HOLY Store — ASCII Art by Holy The Artist</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="container">
-    <!-- Profile Header -->
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJNr8KMKLANOYGn5VSH8qV27nT09zHT8H0cjJj99JuY07dAp14iks04XPB&s=10" alt="Holy D Artist Profile Picture" class="profile-pic">
-    <div class="username">HOLY The Artist</div>
-    <div class="bio">Welcome to my official links & portfolio</div>
+<header>
+  <div class="headbar">
 
-    <!-- Social Links -->
-    <div class="links-container">
-        <a href="https://www.tiktok.com/@holy_d_artist?_r=1&_t=ZN-98iKbvkJVTi" target="_blank" class="link-btn">
-            TikTok
+    <a class="wordmark" data-nav="home" href="#home">
+
+  <div class="holy-text">
+  <pre class="holy-ascii">
+    HOLY THEA    RRTIS    THOL       YTHE  ARTI
+     ST   HO   LY     TH   EA         RT    IS 
+     TH   OL   YT     HE   AR          TI  ST 
+     HOLYTHE   AR     TI   ST           HOLY
+     AR   TI   ST     HO   LY            TH   
+     EA   RT   IS     TH   OL    TH      YT         
+    HEAR TIST    HOLYT    HEARTISTH     OLYT   
+
+  </pre>
+      </div> 
+    </a>
+
+    <nav class="primary" id="primaryNav">
+
+      <button class="nav-close" id="navClose" type="button" aria-label="Close menu">
+        Cancel ❌
+      </button>
+
+      <a data-nav="home" href="#home">Home</a>
+      <a data-nav="originals" href="#originals">Originals</a>
+      <a data-nav="prints" href="#prints">Prints</a>
+      <a data-nav="commission" href="#commission">Commission</a>
+      <a data-nav="feedback" href="#feedback">Feedback</a>
+      <a data-nav="faq" href="#faq">FAQ</a>
+      <a data-nav="contact" href="#contact">Contact</a>
+
+      <div class="more-wrap">
+        <a id="moreToggle" href="#" aria-expanded="false">
+          More ⌄
         </a>
-        <a href="https://www.youtube.com/@holy_d_artist" target="_blank" class="link-btn">
-            YouTube
-        </a>
-        <a href="https://www.instagram.com/holy_the_artist?igsh=ZG1idjFqbTBrM3A4" target="_blank" class="link-btn">
-            Instagram
-        </a>
+
+        <div class="more-panel" id="morePanel">
+          <a data-nav="privacy" href="#privacy">Privacy Policy</a>
+          <a data-nav="terms" href="#terms">Terms of Service</a>
+          <a data-nav="refunds" href="#refunds">Refund Policy</a>
+        </div>
+      </div>
+
+    </nav>
+
+    <button
+      class="menu-btn"
+      id="menuBtn"
+      type="button"
+      aria-label="Open menu"
+      aria-expanded="false"
+    >
+      ☰
+    </button>
+
+  </div>
+</header>
+
+<!-- Mobile menu backdrop -->
+<div class="nav-backdrop" id="navBackdrop"></div>
+
+<main>
+
+  <!-- HOME -->
+  <section class="page active" id="page-home" data-page="home">
+
+    <div class="hero">
+
+      <div>
+       
+        <h1>
+          Portraits<br>
+          built from text.
+        </h1>
+
+        <p class="lede">
+          Every piece begins as a blank page and a single letter.
+          Holy The Artist turns ordinary text characters, typed or
+          handwritten into art
+        </p>
+
+        <div class="cta-row">
+          <a class="btn solid" href="#prints" data-nav="prints">
+            View Prints
+          </a>
+
+          <a class="btn" href="#originals" data-nav="originals">
+            View originals
+          </a>
+        </div>
+      </div>
+
+
     </div>
 
-    <!-- Projects Section -->
-    <div class="section-title">Featured Projects</div>
+    <hr class="rule">
+
+    <div class="about-block">
+
+      <div class="label">ABOUT ME</div>
+
+      <div>
+        <h2>
+          I'm Mubarak Owosheni Oluwatunmishe —
+          Holy The Artist.
+        </h2>
+
+        <p>
+          My path into art wasn't planned. I came across a TikTok comment
+          where someone had drawn a house using nothing but simple text
+          characters and emoji. I'd never seen anything like it.
+          I started digging into it, researching how it was done,
+          and realized barely anyone was actually doing this.
+          So I tried it myself.
+        </p>
+
+        <p>
+          That was the beginning. I make my art using text characters —
+          some pieces built on my phone, others hand-drawn on paper —
+          turning plain characters into a portrait, character by character.
+        </p>
+
+        <p>
+          What keeps me doing it is that same feeling I had the first
+          time I saw it: the surprise that something this simple could
+          hold this much detail, this much story. If a piece of mine
+          means something to you, I'd genuinely love to hear about it.
+        </p>
+      </div>
+
+    </div>
+
+    <hr class="rule">
+
+    <div class="section-head">
+      <h2>Originals</h2>
+
+      <a class="view-all" href="#originals" data-nav="originals">
+        View all originals →
+      </a>
+    </div>
+
     
-    <div class="projects-grid">
-          <!-- Project 5 -->
-        <a href="#" class="project-card">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaZi_9_mCMwW0zFp9sxMePOXdD7IO_m7Fx3g74TFGaQx-jTCraMoy79E9l&s=10" alt="Project 5" class="project-img">
-            <h3 class="project-title">ASCII ART IN BLACK BACKGROUND</h3>
+    <div class="grid" id="homeOriginals"></div>
+
+    <hr class="rule">
+
+    <div class="section-head">
+      <h2>Prints</h2>
+
+      <a class="view-all" href="#prints" data-nav="prints">
+        View all prints →
+      </a>
+    </div>
+
+    <div class="grid" id="homePrints"></div>
+
+  </section>
+
+
+  <!-- ORIGINALS -->
+  <section class="page" id="page-originals" data-page="originals">
+
+    <div class="list-view" id="originalsList">
+
+      <div class="eyebrow">ONE-OF-ONE · HAND-DRAWN</div>
+
+      <h1 class="page-title">Originals</h1>
+
+      <p class="lede">
+        Drawn by hand in ink on paper, signed, and shipped with
+        a Certificate of Authenticity. Each original is unique —
+        once it's sold, that exact piece is gone for good.
+      </p>
+
+      <div class="grid" id="originalsGrid"></div>
+
+    </div>
+
+    <div class="detail" id="originalsDetail"></div>
+
+  </section>
+
+
+  <!-- PRINTS -->
+  <section class="page" id="page-prints" data-page="prints">
+
+    <div class="list-view" id="printsList">
+
+      <div class="eyebrow">MADE TO ORDER</div>
+
+      <h1 class="page-title">Prints</h1>
+
+      <p class="lede">
+        Faithful reproductions of original ASCII portraits,
+        printed to order. A more accessible way to bring
+        a piece home.
+      </p>
+
+      <div class="grid" id="printsGrid"></div>
+
+    </div>
+
+    <div class="detail" id="printsDetail"></div>
+
+  </section>
+
+
+  <!-- COMMISSION -->
+  <section class="page" id="page-commission" data-page="commission">
+
+    <div class="eyebrow">MADE FOR YOU</div>
+
+    <h1 class="page-title">Commission a piece</h1>
+
+    <p class="lede">
+      Every commission is a hand-drawn or digital ASCII portrait,
+      built character by character until it becomes an image.
+    </p>
+
+
+    <h2 class="section-space">Hand-drawn commission</h2>
+
+    <p class="dim">
+      Drawn by hand in ink on paper, signed, with a Certificate of Authenticity.
+    </p>
+
+    <div class="tablewrap">
+
+      <table class="price-table">
+
+        <tr>
+          <th>Size</th>
+          <th>Price (USD)</th>
+          <th>Price (≈NGN)</th>
+        </tr>
+
+        <tr>
+          <td>A4</td>
+          <td class="num">$300</td>
+          <td class="num">≈₦420,000</td>
+        </tr>
+
+        <tr>
+          <td>A3</td>
+          <td class="num">$450</td>
+          <td class="num">≈₦630,000</td>
+        </tr>
+
+        <tr>
+          <td>A2</td>
+          <td class="num">$650</td>
+          <td class="num">≈₦910,000</td>
+        </tr>
+
+        <tr>
+          <td>A1</td>
+          <td class="num">$1,000</td>
+          <td class="num">≈₦1,400,000</td>
+        </tr>
+
+        <tr>
+          <td>A0</td>
+          <td class="num">$1,500</td>
+          <td class="num">≈₦2,100,000</td>
+        </tr>
+
+      </table>
+
+    </div>
+
+
+    <h2 class="section-space">Digital commission</h2>
+
+    <p class="dim">
+      Created entirely on-screen using text characters.
+      Maximum of 2 people per digital commission.
+    </p>
+
+    <div class="tablewrap">
+
+      <table class="price-table">
+
+        <tr>
+          <th>Subjects</th>
+          <th>Price (USD)</th>
+          <th>Price (≈NGN)</th>
+        </tr>
+
+        <tr>
+          <td>1 person</td>
+          <td class="num">$250</td>
+          <td class="num">≈₦350,000</td>
+        </tr>
+
+        <tr>
+          <td>2 people</td>
+          <td class="num">$400</td>
+          <td class="num">≈₦560,000</td>
+        </tr>
+
+      </table>
+
+    </div>
+
+
+    <h2 class="section-space-large">How to commission</h2>
+
+    <div class="steps">
+
+      <div>
+        <h3>1. Get in touch</h3>
+
+        <p class="dim">
+          Email
+          <a href="mailto:mubaraktheartist@gmail.com">
+            mubaraktheartist@gmail.com
+          </a>
+          or message directly with what you have in mind —
+          a person, a story, or a specific moment you want captured.
+        </p>
+      </div>
+
+      <div>
+        <h3>2. Share the details</h3>
+
+        <p class="dim">
+          Send clear reference photo(s) of the subject(s), plus
+          a short description of the story or feeling you want
+          written into the piece.
+        </p>
+      </div>
+
+      <div>
+        <h3>3. Choose your format</h3>
+
+        <p class="dim">
+          Let us know whether you want it hand-drawn with your
+          preferred size or digital with 1 or 2 subjects.
+        </p>
+      </div>
+
+      <div>
+        <h3>4. Payment</h3>
+
+        <p class="dim">
+          Once details are confirmed, you'll receive a payment link.
+          Payment is required in full before work begins.
+        </p>
+      </div>
+
+      <div>
+        <h3>5. Progress & delivery</h3>
+
+        <p class="dim">
+          Hand-drawn: once complete, the piece is signed and shipped
+          with its Certificate of Authenticity.
+          Digital: the finished file is delivered directly by email.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="cta-row">
+
+      <a class="btn solid" href="#contact" data-nav="contact">
+        Start a commission
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- FEEDBACK -->
+  <section class="page" id="page-feedback" data-page="feedback">
+
+    <div class="eyebrow">FROM THE PEOPLE WHO OWN A PIECE</div>
+
+    <h1 class="page-title">Customer feedback</h1>
+
+    <p class="lede">
+      We love hearing from people who own a piece of our work.
+      Your feedback helps us keep improving and helps other buyers
+      know what to expect.
+    </p>
+
+
+    <h2 class="section-space">Share your experience</h2>
+
+    <p class="dim max-text">
+      If you've received your ASCII art piece, we'd love to hear
+      from you. Send a photo of your piece once it arrives,
+      and a short note about your experience.
+    </p>
+
+
+    <h2 class="section-space">Had a problem?</h2>
+
+    <p class="dim max-text">
+      If anything about your order wasn't right, please tell us
+      directly at
+      <a href="mailto:mubaraktheartist@gmail.com">
+        mubaraktheartist@gmail.com
+      </a>
+      before leaving public feedback.
+    </p>
+
+
+    <hr class="rule">
+
+    <div class="eyebrow">A NOTE FOR FUTURE VISITORS</div>
+
+    <div class="quote">
+      <p>
+        Real reviews from buyers will appear on this page as they come in.
+      </p>
+
+      <div class="who">
+        — reserved space, updated as feedback arrives
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- FAQ -->
+  <section class="page" id="page-faq" data-page="faq">
+
+    <div class="eyebrow">GOOD TO KNOW</div>
+
+    <h1 class="page-title">FAQ</h1>
+
+    <div class="faq">
+
+      <details open>
+        <summary>
+          How long does it take to make my ASCII art?
+          <span class="plus">+</span>
+        </summary>
+
+        <p>
+          Each piece is made by hand, one letter or symbol at a time.
+          Please allow 1 to 2 weeks from the day you order to the day
+          your piece is finished.
+        </p>
+      </details>
+
+
+      <details>
+        <summary>
+          What sizes and formats do you offer?
+          <span class="plus">+</span>
+        </summary>
+
+        <p>
+          We offer prints and originals in sizes A4, A3, A2, A1,
+          and A0. Digital commissions are also available.
+        </p>
+      </details>
+
+
+      <details>
+        <summary>
+          Is my piece really made by hand?
+          <span class="plus">+</span>
+        </summary>
+
+        <p>
+          Yes. Original and hand-drawn commission pieces are
+          hand-written in ink on paper.
+        </p>
+      </details>
+
+
+      <details>
+        <summary>
+          Do I get a Certificate of Authenticity?
+          <span class="plus">+</span>
+        </summary>
+
+        <p>
+          Yes. Original and limited-edition pieces come with
+          a signed Certificate of Authenticity.
+        </p>
+      </details>
+
+
+      <details>
+        <summary>
+          What is the limited-edition number?
+          <span class="plus">+</span>
+        </summary>
+
+        <p>
+          Some pieces are part of a limited run. The number shows
+          your piece's place in that run, for example 5/50.
+        </p>
+      </details>
+
+
+      <details>
+        <summary>
+          Can I request a custom subject?
+          <span class="plus">+</span>
+        </summary>
+
+        <p>
+          Yes. Commission pieces can be created from a photo or
+          reference you send.
+        </p>
+      </details>
+
+
+      <details>
+        <summary>
+          Can I return or refund my order?
+          <span class="plus">+</span>
+        </summary>
+
+        <p>
+          Please see our Refund Policy for the full conditions
+          covering originals, prints, and commissions.
+        </p>
+      </details>
+
+
+      <details>
+        <summary>
+          How do I contact you?
+          <span class="plus">+</span>
+        </summary>
+
+        <p>
+          Email us at
+          <a href="mailto:mubaraktheartist@gmail.com">
+            mubaraktheartist@gmail.com
+          </a>.
+        </p>
+      </details>
+
+
+      <details>
+        <summary>
+          Where do you ship from?
+          <span class="plus">+</span>
+        </summary>
+
+        <p>
+          We ship from Nigeria. Shipping time and cost depend
+          on your location.
+        </p>
+      </details>
+
+    </div>
+
+  </section>
+
+
+  <!-- PRIVACY -->
+  <section class="page legal" id="page-privacy">
+
+    <div class="eyebrow">LEGAL</div>
+
+    <h1 class="page-title">Privacy Policy</h1>
+
+    <div class="updated">Last updated: [date]</div>
+
+    <p>
+      HOLY Store ("we", "us") respects your privacy.
+      This page explains what information we collect and how we use it.
+    </p>
+
+    <h3>1. Information we collect</h3>
+
+    <p>When you place an order, we may collect:</p>
+
+    <ul>
+      <li>Your name, email address, and shipping address</li>
+      <li>Payment information handled securely by the payment provider</li>
+      <li>Photos or reference images you send for a commission</li>
+      <li>Messages you send for support or feedback</li>
+    </ul>
+
+
+    <h3>2. How we use your information</h3>
+
+    <ul>
+      <li>Make and ship your order</li>
+      <li>Contact you about your order</li>
+      <li>Respond to your messages</li>
+      <li>Improve our products and services</li>
+      <li>Share feedback or photos publicly only with your permission</li>
+    </ul>
+
+
+    <h3>3. Sharing your information</h3>
+
+    <p>
+      We do not sell your personal information.
+      We only share what's needed to process and fulfil your order.
+    </p>
+
+
+    <h3>4. How we protect your information</h3>
+
+    <p>
+      We take reasonable steps to keep your information safe.
+    </p>
+
+
+    <h3>5. Your choices</h3>
+
+    <p>You can contact us to request information about your data.</p>
+
+
+    <h3>6. Contact us</h3>
+
+    <p>
+      For privacy questions, email
+      <a href="mailto:mubaraktheartist@gmail.com">
+        mubaraktheartist@gmail.com
+      </a>.
+    </p>
+
+  </section>
+
+
+  <!-- TERMS -->
+  <section class="page legal" id="page-terms">
+
+    <div class="eyebrow">LEGAL</div>
+
+    <h1 class="page-title">Terms of Service</h1>
+
+    <div class="updated">Last updated: [date]</div>
+
+    <p>
+      Welcome to HOLY Store. By placing an order with us,
+      you agree to the terms below.
+    </p>
+
+    <h3>1. Our products</h3>
+
+    <p>
+      We sell handmade ASCII art as originals, prints,
+      and digital commissions.
+    </p>
+
+
+    <h3>2. Production time</h3>
+
+    <p>
+      Commission and original pieces generally take 1 to 2 weeks
+      to make before shipping.
+    </p>
+
+
+    <h3>3. Pricing</h3>
+
+    <p>
+      Prices are listed on the relevant product or commission page
+      and may change for future orders.
+    </p>
+
+
+    <h3>4. Payment</h3>
+
+    <p>
+      Payment is required in full before work begins.
+    </p>
+
+
+    <h3>5. Refunds and replacements</h3>
+
+    <p>
+      Please see the Refund Policy for the conditions covering
+      refunds and replacements.
+    </p>
+
+
+    <h3>6. Custom / commission orders</h3>
+
+    <p>
+      For commission pieces, you confirm that you have the right
+      to use any photo or image you send as a reference.
+    </p>
+
+
+    <h3>7. Limited editions</h3>
+
+    <p>
+      Where a piece is sold as part of a limited edition,
+      the edition number shown to you is fixed.
+    </p>
+
+
+    <h3>8. Shipping</h3>
+
+    <p>
+      We ship from Nigeria. Shipping costs and estimated delivery
+      times vary by destination.
+    </p>
+
+
+    <h3>9. Intellectual property</h3>
+
+    <p>
+      All artwork, designs, and original character work remain
+      the intellectual property of Mubarak Owosheni (HOLY)
+      unless otherwise agreed in writing.
+    </p>
+
+
+    <h3>10. Contact</h3>
+
+    <p>
+      Questions can be sent to
+      <a href="mailto:mubaraktheartist@gmail.com">
+        mubaraktheartist@gmail.com
+      </a>.
+    </p>
+
+  </section>
+
+
+  <!-- REFUNDS -->
+  <section class="page legal" id="page-refunds">
+
+    <div class="eyebrow">LEGAL</div>
+
+    <h1 class="page-title">Refund Policy</h1>
+
+
+    <h3>Prints</h3>
+
+    <p>
+      If your print arrives damaged or defective, contact us
+      within 2 days of delivery with photos of the item and packaging.
+      We'll arrange a replacement.
+    </p>
+
+
+    <h3>Originals</h3>
+
+    <p>
+      Original artworks are one-of-one hand-made pieces.
+      All original sales are final except in the case of
+      damage during transit.
+    </p>
+
+
+    <h3>Commissions</h3>
+
+    <p>
+      Commissioned pieces are custom-made and are final once
+      work has begun. If you cancel before work starts,
+      contact us to discuss a refund.
+    </p>
+
+
+    <h3>Damaged in transit</h3>
+
+    <p>
+      If an item arrives damaged, contact us within 2 days
+      of delivery with clear photos of the item and packaging.
+    </p>
+
+
+    <h3>How to request a replacement</h3>
+
+    <p>
+      Email
+      <a href="mailto:mubaraktheartist@gmail.com">
+        mubaraktheartist@gmail.com
+      </a>
+      with your order number and photos of the issue.
+    </p>
+
+  </section>
+
+
+  <!-- CONTACT -->
+<section class="page" id="page-contact" data-page="contact">
+
+    <div class="eyebrow">GET IN TOUCH</div>
+
+    <h1 class="page-title">Contact</h1>
+
+    <p class="lede">
+      Have a question, want to commission a piece,
+      or just want to say hello?
+    </p>
+
+
+    <form class="contact" id="contactForm">
+
+      <div class="field">
+        <label for="cName">Name</label>
+        <input
+          id="cName"
+          type="text"
+          required
+          placeholder="Your name"
+        >
+      </div>
+
+
+      <div class="field">
+        <label for="cEmail">Email</label>
+        <input
+          id="cEmail"
+          type="email"
+          required
+          placeholder="you@example.com"
+        >
+      </div>
+
+
+      <div class="field">
+        <label for="cMessage">Message</label>
+
+        <textarea
+          id="cMessage"
+          required
+          placeholder="Tell me what you have in mind..."
+        ></textarea>
+      </div>
+
+
+      <button class="btn solid" type="submit">
+        Send message
+      </button>
+
+      <div class="form-status" id="formStatus">
+        Opening your email app…
+      </div>
+
+      <p class="form-note">
+        This opens a pre-filled email addressed to
+        mubaraktheartist@gmail.com. Nothing is sent until
+        you press send in your email app.
+      </p>
+
+    </form>
+
+
+    <div class="contact-alt">
+
+      <h3>Prefer another way?</h3>
+
+      <p class="dim">
+        Email
+        <a href="mailto:mubaraktheartist@gmail.com">
+          mubaraktheartist@gmail.com
+        </a>
+        directly, or reach out on
+        <a
+          href="https://www.instagram.com/holy_the_artist"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+        </a>.
+      </p>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<!-- Floating back button -->
+<button
+  class="float-back"
+  id="floatBack"
+  type="button"
+  aria-label="Go back"
+>
+  ← Back
+</button>
+
+
+<footer>
+
+  <div class="foot-inner">
+
+
+    <div>
+
+      <div class="social-row">
+
+        <a
+          href="https://flutterwave.com/store/holytheartist"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Store
+        </a>
+
+        <a
+          href="https://www.instagram.com/holy_the_artist"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+        </a>
+
+        <a
+          href="https://x.com/holy_d_artist"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Twitter
+        </a>
+
+        <a
+          href="https://tiktok.com/@holy_d_artist"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          TikTok
+        </a>
+<br /><br /><br />
+      </div>
+            <a data-nav="privacy" href="#privacy">Privacy Policy</a>
+          <a data-nav="terms" href="#terms">Terms of Service</a>
+          <a data-nav="refunds" href="#refunds">Refund Policy</a>
+          <a data-nav="faq" href="#faq">FAQ</a>
+      <a data-nav="contact" href="#contact">Contact</a>
+
+    </div>
+
+  </div>
+
+
+
+</footer>
+
+
+<script src="main.js"></script>
+
+</body>
+        </html>            <h3 class="project-title">ASCII ART IN BLACK BACKGROUND</h3>
             <p class="project-desc">Detailed monochrome ASCII portrait rendered precisely against a dark backdrop.</p>
         </a>
         
