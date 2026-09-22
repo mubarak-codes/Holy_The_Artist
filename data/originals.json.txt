@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Messi Story Original",
+    "size": "A3",
+    "price": "$1500 (₦2,000,000) ",
+    "img": "img/Messi_story.jpg",
+    "storeUrl": "https://flutterwave.com/store/holytheartist/yhb2m2uwgildp4", 
+    "sold": ""
+  },
+  {
+    "id": "2",
+    "title": "Break Out Original",
+    "size": "A2",
+    "price": "$2000 (₦2,700,000  ) ",
+    "img": "img/Break_Out.jpg",
+    "storeUrl": "https://flutterwave.com/store/holytheartist/4eg79d5vgeubza", 
+    "sold":""
+  }
+]

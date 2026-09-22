@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "Messi Story Print ",
+    "img": "img/Messi_story.jpg", 
+    "size": "A4 - A0",
+    "price": "$65 - $250",
+    "storeUrl": "https://flutterwave.com/store/holytheartist/bbnkkgxzrvsm0z", 
+    "sold": ""
+  },
+  {
+    "id": "2",
+    "title": "Break Out Print",
+    "img": "img/Break_out.jpg", 
+    "size": "A4 - A0",
+    "price": "$65 - $250 ",
+    "storeUrl": "https://flutterwave.com/store/holytheartist/hlgs4si2meb08y", 
+    "sold": ""
+  },
+  {
+    "id": "3",
+    "title": "Michael Jackson ",
+    "img": "img/Michael_jackson.jpeg", 
+    "size": "A4 - A0",
+    "price": "$65 - $250",
+    "storeUrl": "https://flutterwave.com/store/holytheartist/0eayatgllsxy", 
+    "sold": ""
+  }
+]
