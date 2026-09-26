@@ -231,13 +231,13 @@
     fillGrid(
       "homeOriginals",
       originals,
-      2
+      6
     );
 
     fillGrid(
       "homePrints",
       prints,
-      2
+      6
     );
 
     fillGrid(
