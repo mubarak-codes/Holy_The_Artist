@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <title>About — Holy The Artist</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="headbar">
+
+    <a class="wordmark" href="index.html#home">
+
+      <div class="holy-text">
+        <pre class="holy-ascii">
+    HOLY THEA    RRTIS    THOL       YTHE  ARTI
+     ST   HO   LY     TH   EA         RT    IS 
+     TH   OL   YT     HE   AR          TI  ST 
+     HOLYTHE   AR     TI   ST           HOLY
+     AR   TI   ST     HO   LY            TH   
+     EA   RT   IS     TH   OL    TH      YT         
+    HEAR TIST    HOLYT    HEARTISTH     OLYT   
+
+        </pre>
+      </div>
+    </a>
+
+    <nav class="primary" id="primaryNav">
+
+      <button class="nav-close" id="navClose" type="button" aria-label="Close menu">
+        Cancel ❌
+      </button>
+
+      <a href="index.html#home">Home</a>
+      <a href="index.html#originals">Originals</a>
+      <a href="index.html#prints">Prints</a>
+      <a class="active" href="about.html">About</a>
+      <a href="index.html#commission">Commission</a>
+      <a href="index.html#feedback">Feedback</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="index.html#contact">Contact</a>
+
+      <div class="more-wrap">
+        <a id="moreToggle" href="#" aria-expanded="false">
+          More ⌄
+        </a>
+
+        <div class="more-panel" id="morePanel">
+          <a href="index.html#privacy">Privacy Policy</a>
+          <a href="index.html#terms">Terms of Service</a>
+          <a href="index.html#refunds">Refund Policy</a>
+        </div>
+      </div>
+
+    </nav>
+
+    <button
+      class="menu-btn"
+      id="menuBtn"
+      type="button"
+      aria-label="Open menu"
+      aria-expanded="false"
+    >
+      ☰
+    </button>
+
+  </div>
+</header>
+
+<!-- Mobile menu backdrop -->
+<div class="nav-backdrop" id="navBackdrop"></div>
+
+<main>
+
+  <section class="page active" id="page-about">
+
+    <div class="eyebrow">ABOUT ME</div>
+
+    <!-- Put your photo at images/holy.jpg, or delete this line -->
+    <img class="about-photo" src="images/holy.jpg" alt="Mubarak Owosheni Oluwatunmishe, Holy The Artist">
+
+    <h1 class="page-title">
+      I'm Mubarak Owosheni Oluwatunmishe — Holy The Artist.
+    </h1>
+
+    <div class="about-text">
+
+      <p class="intro">
+        I make art using letters, numbers and symbols.
+      </p>
+
+      <p>
+        My path into art wasn't planned. I came across a TikTok comment
+        where someone had drawn a house using nothing but simple text
+        characters and emoji. I'd never seen anything like it. I started
+        researching how it was done, and realized barely anyone was
+        actually doing this. So I tried it myself.
+      </p>
+
+      <p>
+        That was the beginning. Some pieces are built on my phone, others
+        are hand-drawn on paper, turning plain characters into a portrait,
+        character by character.
+      </p>
+
+    </div>
+
+    <div class="cta-row">
+      <a class="btn solid" href="index.html#originals">View originals</a>
+      <a class="btn" href="index.html#commission">Commission a piece</a>
+    </div>
+
+  </section>
+
+</main>
+
+
+<footer>
+
+  <div class="foot-inner">
+
+    <div>
+
+      <div class="social-row">
+
+        <a
+          href="https://flutterwave.com/store/holytheartist"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Store
+        </a>
+
+        <a
+          href="https://www.instagram.com/holy_the_artist"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+        </a>
+
+        <a
+          href="https://x.com/holy_d_artist"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Twitter
+        </a>
+
+        <a
+          href="https://tiktok.com/@holy_d_artist"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          TikTok
+        </a>
+
+        <br /><br /><br />
+      </div>
+
+      <a href="index.html#privacy">Privacy Policy</a>
+      <a href="index.html#terms">Terms of Service</a>
+      <a href="index.html#refunds">Refund Policy</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="index.html#contact">Contact</a>
+
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Same script as the home page. It runs the mobile menu and More dropdown. -->
+<script src="main.js"></script>
+
+</body>
+</html>
