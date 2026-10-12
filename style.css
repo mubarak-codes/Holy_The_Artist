@@ -28,8 +28,8 @@ body {
   margin: 0;
   min-height: 100%;
 
-  background: var(--bg);
-  color: var(--text);
+  background-color: white;
+  color: black ;
 
   font-family: 'Courier New', Courier, monospace;
   font-size: 15px;
